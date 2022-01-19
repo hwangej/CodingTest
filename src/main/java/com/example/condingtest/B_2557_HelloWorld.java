@@ -12,8 +12,6 @@ public class B_2557_HelloWorld {
 public class Main {
     public static void main(String[] args) {
 
-
-
     }
 }
  */
