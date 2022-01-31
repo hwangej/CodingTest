@@ -11,6 +11,7 @@ public class B_1008_ADivisionB {
         System.out.println(a / b);
     }
 }
+//BufferedReader 입력받기
 
 
 
