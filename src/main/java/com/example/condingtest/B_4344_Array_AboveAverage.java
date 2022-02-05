@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class B_4344_Array_AboveAverage {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+        //int[] arr = new int[a];
         int a = Integer.parseInt(br.readLine());
         String[] arr = new String[a];
         for (int i = 0; i < a; i++){
