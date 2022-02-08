@@ -35,12 +35,12 @@ public class B_4673_Func_SelfNumbers {
 
     //d(n) 값 구하기
     public static int d(int a) {
-        int sum = a;
+        int count = a;
 
         while (a != 0) {
-            sum += a % 10;
+            count += a % 10;
             a = a/10;
         }
-        return sum;
+        return count;
     }
 }
