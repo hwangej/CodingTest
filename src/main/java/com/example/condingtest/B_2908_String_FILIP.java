@@ -12,7 +12,7 @@ public class B_2908_String_FILIP {
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         //String[] str = br.readLine().split(" "); // 상수 입력
 
-        int a = Integer.parseInt(new StringBuilder(st.nextToken()).reverse().toString());
+        int a = Integer.parseInt(new StringBuilder(st.nextToken()).reverse().toString());// 숫자 거꾸로 저장
         int b = Integer.parseInt(new StringBuilder(st.nextToken()).reverse().toString());
 
         if (a > b){
