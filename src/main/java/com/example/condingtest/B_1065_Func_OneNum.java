@@ -15,12 +15,21 @@ public class B_1065_Func_OneNum {
 
     }
 
+
     public static int h(int n){
         int count = 0;
-        for (int i = 1; i <= n; i++){
-            if (i < 100) count+=1;
-            if ((n/100) - ((n%10)/10) == ((n%10)/10) - (n%10) ){
-                count += 1;
+
+        for (int i = 0; i <= n; i++) {
+            if (0 < i && i < 100) {
+                count++;
+            }
+            if (100 <= i && i < 1000){
+                int one = i % 10;
+                int ten = (i-one) / 10 % 10;
+                int hundred = (i-ten-one) / 100 % 10;
+                if ((hundred - ten) == (ten - one)) {
+                    count++;
+                }
             }
         }
         return count;
